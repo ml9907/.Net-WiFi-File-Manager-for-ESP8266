@@ -80,7 +80,7 @@ namespace FileManager
 		}
 
 
-		int maxStrLengthForSaveOpeeration = 1024; 
+		int maxStrLengthForSaveOpeeration = 256; 
 
 		private void SaveStringToEspFile(string targetFileName, string strContent, bool isUpdate)
 		{
